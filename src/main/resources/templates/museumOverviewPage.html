@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Museums</title>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <td>Name</td>
+        <td>Address</td>
+        <td>Visitors/Year</td>
+        <td>Type</td>
+        <td>City</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="museum : ${museumList}">
+        <td th:text="${museum.name}"/>
+        <td th:text="${museum.address}"/>
+        <td th:text="${museum.visitors}"/>
+        <td th:text="${museum.type}"/>
+        <td th:text="${museum.cityName}"/>
+    </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
