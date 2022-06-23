@@ -6,22 +6,22 @@
 </head>
 <body>
 
-<!--<table>-->
-<!--    <thead>-->
-<!--    <tr>-->
-<!--        <td>City</td>-->
-<!--        <td>Country</td>-->
-<!--        <td>Total Museums</td>-->
-<!--    </tr>-->
-<!--    </thead>-->
-<!--    <tbody>-->
-<!--    <tr th:each="city : ${cityList}">-->
-<!--        <td th:text="${city.cityName}"/>-->
-<!--        <td th:text="${museum.country}"/>-->
-<!--        <td th:text="${museum.totalMuseums}"/>-->
-<!--    </tr>-->
-<!--    </tbody>-->
-<!--</table>-->
+<table>
+    <thead>
+    <tr>
+        <td>City</td>
+        <td>Country</td>
+        <td>TotalMuseums</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="city : ${cityList}">
+        <td th:text="${city.cityName}"/>
+        <td th:text="${city.country}"/>
+        <td th:text="${city.totalMuseums}"/>
+    </tr>
+    </tbody>
+</table>
 
 
 </body>

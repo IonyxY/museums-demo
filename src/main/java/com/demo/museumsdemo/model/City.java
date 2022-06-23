@@ -12,11 +12,11 @@ public class City {
         this.totalMuseums = totalMuseums;
     }
 
-    public String getCity() {
+    public String getCityName() {
         return cityName;
     }
 
-    public void setCity(String cityName) {
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
 
